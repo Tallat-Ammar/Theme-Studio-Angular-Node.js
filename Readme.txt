@@ -1,0 +1,1 @@
+You have to download the node modules first then connect to the database mongodb thorough API 

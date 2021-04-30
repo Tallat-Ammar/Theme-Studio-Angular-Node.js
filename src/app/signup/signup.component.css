@@ -1,0 +1,58 @@
+         
+                
+                    input[type=text], input[type=password],input[type=email] {
+                     
+                        padding: 12px 20px;
+                        margin: 8px 26px;
+                        display: inline-block;
+                        border: 1px solid crimson;
+                        box-sizing: border-box;
+                        font-size:16px;
+                        }
+                        ::placeholder{
+                                color: crimson;
+                                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; ;
+                        }
+                       
+                        button {
+                        background-color: crimson;
+                        color: white;
+                        padding: 14px 20px;
+                        margin: 8px 26px;
+                        border: none;
+                        cursor: pointer;
+                       
+                        font-size:20px;
+                        }
+                      
+                        .log{
+                        text-align: center;
+                        margin: 24px 0 12px 0;
+                        position: relative;
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        }
+                        .font{
+                            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+                        }
+                      
+                        .modal {
+                        display:none;
+                        position: fixed;
+                        z-index: 1;
+                        left: 0;
+                        top: 0;
+                        
+                        overflow: auto;
+                        background-color: rgba(0,0,0,0.4);
+                        }
+                    
+                        .modal-content {
+                    
+                        background-color:whitesmoke;
+                        margin: 4% auto 15% auto;
+                        border: 5px solid crimson ;
+                        width: 30%;
+                        height: 500px;
+                        padding-bottom: 30px;
+                        }
+    
